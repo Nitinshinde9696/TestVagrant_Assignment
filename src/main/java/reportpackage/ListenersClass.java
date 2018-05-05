@@ -72,7 +72,7 @@ public class ListenersClass implements ITestListener {
 		 
 		try {
 			Utility.screenShot(driver, arg0.getName());
-			extent.endTest(logger);
+			
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

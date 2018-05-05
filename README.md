@@ -1,23 +1,22 @@
-# TestVagrant hiring challenge for applicants 
+Code Review comment/changes:
 
-About the codebase:
----------------------------------
-*This is a simple test project for testing a few scenarios on a sample flight/hotel booking website. There are **3 tests** in total spread over 3 test classes. Following tech stack has been used to develop the same.*
+1. Framework Related:
+	a.Create common package for data setup repository(commonutil) were added the common methods.
+	b.Create Package for Reporting purpose(Listeners+Extend report).
+	c.Added screen shot method on failure test.
+	d.Use @BeforeMethod and @afterMethod annotations to initialization/Open connection and close connection purpose.
+	e.Added Maven dependencies.
 
-**Tech Stack:** *Java*  *Selenium* *TestNG*  *Gradle/Maven*
+2. class SignInTest : 
+		a.code added for navigate to frame
 
-Problem Statement
-----------------------------------
-**Tasks:**
+3. Class FlightBookingTest:
+		a. changed the locator value from 'toTag' to 'ToTag'.
 
-1. Test are failing which needs your expertise to fix it.
-2. Review and point out design issues with the current codebase/framework, if any.
-3. Improve/refactor the code to implement your suggestions.
+4. Class HotelBookingTest : 
+		a. PageFactory.initElements(driver, this) code added.
+		b. Datepicker code added.
 
-**What we want:**
-1. Create a GitHub account if not existing already.
-2. Fork this repo (DO NOT CLONE).
-3. Fix the errors and refactor the code, consider **abstractions, reusability and maintenance.**
-4. Make sure you make multiple check-ins in the process, we would love to see your progress bit by bit.
-5. Also check-in a separate file where you should list all your code review comments.
-6. Send us the link of your GitHub repo to **careers@testvagrant.com**. Also attach your **resume**.
+5. Class Listeners :
+		a. added listeners and Extend report code.
+			
