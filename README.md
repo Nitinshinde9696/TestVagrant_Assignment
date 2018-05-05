@@ -8,7 +8,7 @@ Code Review comment/changes:
 	e.Added Maven dependencies.
 
 2. class SignInTest : 
-		a.code added for navigate to frame
+		a.code added for navigate to frame.
 
 3. Class FlightBookingTest:
 		a. changed the locator value from 'toTag' to 'ToTag'.
