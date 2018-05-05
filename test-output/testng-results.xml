@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="117958" started-at="2018-05-05T04:36:40Z" finished-at="2018-05-05T04:38:38Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="117958" started-at="2018-05-05T04:36:40Z" finished-at="2018-05-05T04:38:38Z">
+      <class name="cleartrip.HotelBookingTest">
+        <test-method status="PASS" signature="openConnection()[pri:0, instance:cleartrip.HotelBookingTest@1774679]" name="openConnection" is-config="true" duration-ms="25495" started-at="2018-05-05T10:07:26Z" finished-at="2018-05-05T10:07:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openConnection -->
+        <test-method status="PASS" signature="shouldBeAbleToSearchForHotels()[pri:0, instance:cleartrip.HotelBookingTest@1774679]" name="shouldBeAbleToSearchForHotels" duration-ms="19890" started-at="2018-05-05T10:07:52Z" finished-at="2018-05-05T10:08:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToSearchForHotels -->
+        <test-method status="PASS" signature="closeConnection()[pri:0, instance:cleartrip.HotelBookingTest@1774679]" name="closeConnection" is-config="true" duration-ms="2148" started-at="2018-05-05T10:08:12Z" finished-at="2018-05-05T10:08:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeConnection -->
+      </class> <!-- cleartrip.HotelBookingTest -->
+      <class name="cleartrip.SignInTest">
+        <test-method status="PASS" signature="openConnection()[pri:0, instance:cleartrip.SignInTest@1fc5af1]" name="openConnection" is-config="true" duration-ms="17344" started-at="2018-05-05T10:08:14Z" finished-at="2018-05-05T10:08:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openConnection -->
+        <test-method status="PASS" signature="shouldThrowAnErrorIfSignInDetailsAreMissing()[pri:0, instance:cleartrip.SignInTest@1fc5af1]" name="shouldThrowAnErrorIfSignInDetailsAreMissing" duration-ms="6692" started-at="2018-05-05T10:08:31Z" finished-at="2018-05-05T10:08:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldThrowAnErrorIfSignInDetailsAreMissing -->
+        <test-method status="PASS" signature="closeConnection()[pri:0, instance:cleartrip.SignInTest@1fc5af1]" name="closeConnection" is-config="true" duration-ms="75" started-at="2018-05-05T10:08:38Z" finished-at="2018-05-05T10:08:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeConnection -->
+      </class> <!-- cleartrip.SignInTest -->
+      <class name="cleartrip.FlightBookingTest">
+        <test-method status="PASS" signature="openConnection()[pri:0, instance:cleartrip.FlightBookingTest@1832929]" name="openConnection" is-config="true" duration-ms="30994" started-at="2018-05-05T10:06:40Z" finished-at="2018-05-05T10:07:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openConnection -->
+        <test-method status="PASS" signature="testThatResultsAppearForAOneWayJourney()[pri:0, instance:cleartrip.FlightBookingTest@1832929]" name="testThatResultsAppearForAOneWayJourney" duration-ms="13021" started-at="2018-05-05T10:07:11Z" finished-at="2018-05-05T10:07:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThatResultsAppearForAOneWayJourney -->
+        <test-method status="PASS" signature="closeConnection()[pri:0, instance:cleartrip.FlightBookingTest@1832929]" name="closeConnection" is-config="true" duration-ms="2083" started-at="2018-05-05T10:07:24Z" finished-at="2018-05-05T10:07:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeConnection -->
+      </class> <!-- cleartrip.FlightBookingTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
