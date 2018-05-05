@@ -2,7 +2,7 @@ Code Review comment/changes:
 
 1. Framework Related:
 	a.Create common package for data setup repository(commonutil) were added the common methods.
-	b.Create Package for Reporting purpose(Listeners+Extend report).
+	b.Create Package for Reporting purpose(Listeners+Extent reports).
 	c.Added screen shot method on failure test.
 	d.Use @BeforeMethod and @afterMethod annotations to initialization/Open connection and close connection purpose.
 	e.Added Maven dependencies.
