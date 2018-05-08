@@ -1,3 +1,5 @@
+//Author: Nitin Shinde
+
 package commonutil;
 
 import java.io.File;
@@ -8,7 +10,6 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import com.sun.javafx.PlatformUtil;
 
 @SuppressWarnings("restriction")
